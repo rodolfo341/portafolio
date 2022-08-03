@@ -1,0 +1,61 @@
+ /* .fondo{
+    background-image: url(../img/fondo1.jpg);
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/10/21/46/laptop-2838918_960_720.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;  
+}  */
+/* .navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+} */
+
+.btnEnviar{
+    background: rgba(0, 0, 0, 0.6);     
+}
+.card {
+    background: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(126, 123, 215, 0.2); */
+}
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.7);
+}
+.mt-10{
+    margin-top: 120px;
+}
+
+
+html,body,header,.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,body,header,.view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,body,header,.view {
+    height: 650px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(0, 0, 0, 0.4); !important;
+    /* background: #3f51b5 !important; */
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(2, 2, 2, 0.2) 100%); /*fondo*/
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(2, 2, 2, 0.2) 100%));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(2, 2, 2, 0.2) 100%);
+}
+
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
